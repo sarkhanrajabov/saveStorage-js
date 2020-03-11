@@ -13,13 +13,13 @@
 
 Include saveStorage JS file
 
-``` bash
+```
 <script src="savestorage.min.js"></script>
 ```
 
 HTML
 
-``` bash
+```
 <form id="myform"> // id required
   <div>
     <label>Name</label>
@@ -34,13 +34,13 @@ HTML
 
 initialize saveStorage
 
-``` bash
+```
 saveStorage('#myform');
 ```
 
 ## Options:
 
-``` bash
+```
 saveStorage('#myform', {
     exclude: ['passowrd','hidden'] // does not save input types
 });
