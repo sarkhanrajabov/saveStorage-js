@@ -1,7 +1,7 @@
 /**
  * javaScript saveStorage - 11.03.2020
  * Version: 1.0.0
- * Website: https://github.com/Serxan96/saveStorage-js
+ * Website: https://github.com/sarkhanrajabov/saveStorage-js
  * Author: Sarkhan Rajabov
  **/
 
