@@ -36,15 +36,13 @@ function saveStorage(selector, options){
         let opts = extend({}, defaults, options);
 
         let excludeInputType = function(){
-            if(opts.exclude){
-                let inputType = '';
+            let inputType = '';
 
-                opts.exclude.forEach(function(type){
-                    inputType += ':not([type='+type+'])';
-                });
+            opts.exclude.forEach(function(type){
+                inputType += ':not([type='+type+'])';
+            });
 
-                return inputType;
-            }
+            return inputType;
         };
 
         let serializeArray = function(){
